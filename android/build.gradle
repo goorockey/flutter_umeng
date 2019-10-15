@@ -52,4 +52,7 @@ dependencies {
     //小米Push通道
     implementation 'com.umeng.umsdk:xiaomi-push:3.6.9'
     implementation 'com.umeng.umsdk:xiaomi-umengaccs:1.0.9'
+    //vivo Push通道
+    implementation 'com.umeng.umsdk:vivo-push:2.3.1'
+    implementation 'com.umeng.umsdk:vivo-umengaccs:1.0.4'
 }

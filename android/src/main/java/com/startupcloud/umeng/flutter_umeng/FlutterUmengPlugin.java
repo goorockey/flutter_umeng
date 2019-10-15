@@ -14,6 +14,7 @@ import com.umeng.message.UTrack;
 
 import org.android.agoo.huawei.HuaWeiRegister;
 import org.android.agoo.xiaomi.MiPushRegistar;
+import org.android.agoo.vivo.VivoRegister;
 import org.json.JSONObject;
 
 import io.flutter.plugin.common.EventChannel;
@@ -106,6 +107,10 @@ public class FlutterUmengPlugin implements MethodCallHandler {
 
   public static void registerMiPush(Context context, String appId, String appKey) {
     MiPushRegistar.register(context, appId, appKey);
+  }
+
+  public static void registerVivo(Application application) {
+    VivoRegister.register(application);
   }
 
   /**
