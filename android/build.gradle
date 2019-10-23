@@ -44,7 +44,7 @@ dependencies {
 //        exclude group: 'com.ta', module: 'utdid2'
 //    }
     //PushSDK
-    implementation 'com.umeng.umsdk:push:5.0.2'
+    implementation 'com.umeng.umsdk:push:6.0.1'
     //华为Push通道
     implementation 'com.umeng.umsdk:huawei-basetb:2.6.0.301'
     implementation 'com.umeng.umsdk:huawei-pushtb:2.6.0.301'
